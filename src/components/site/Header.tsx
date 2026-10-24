@@ -34,7 +34,7 @@ export function Header() {
     >
       <div className="container-x flex h-20 items-center justify-between">
         <Link to="/" aria-label="TAVARES Construção — início" className="relative z-50">
-          <Logo />
+          <Logo onDarkBackground={overHero} />
         </Link>
         <nav className="hidden items-center gap-10 md:flex" aria-label="Principal">
           {nav.map((n) => (

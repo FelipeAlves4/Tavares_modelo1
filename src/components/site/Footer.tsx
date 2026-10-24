@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="bg-forest text-ivory">
       <div className="container-x grid gap-14 py-20 md:grid-cols-12">
         <div className="md:col-span-5">
-          <Logo />
+          <Logo onDarkBackground />
           <p className="mt-8 max-w-sm text-sm leading-relaxed text-ivory/65">
             Site demonstrativo para aprovação visual. Projetos, textos e fotografias são ilustrativos e não representam obras reais da TAVARES.
           </p>
